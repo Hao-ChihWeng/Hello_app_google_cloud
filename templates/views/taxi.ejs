@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>
+
+    </title>
+    <link rel="stylesheet "
+        href="/Hello_app_google_cloud/templates/public/styles/style.css">
+</head>
+
+<body>
+    <h1>Chicago Taxi Track Record.</h1>
+    <h3>Trip ID : <%=djs[0].trip_id %>
+    </h3>
+    <h3>Taxi ID : <%=djs[0].taxi_id %>
+    </h3>
+    <h3>Trip start timestamp : <%= djs[0].trip_start_timestamp
+            %>
+    </h3>
+    <h3>Trip end timestamp : <%= djs[0].trip_end_timestamp
+            %>
+    </h3>
+    <h3>Trip seconds : <%= djs[0].trip_seconds
+            %> seconds
+    </h3>
+    <h3>Trip fare : <%= djs[0].fare
+            %>
+    </h3>
+    <h3>Trip tips : <%= djs[0].tips
+            %>
+    </h3>
+    <h3>Tolls : <%= djs[0].tolls
+            %>
+    </h3>
+    <h3>Extras : <%= djs[0].extras
+            %>
+    </h3>
+    <h3>Trip total : <%= djs[0].trip_total
+            %>
+    </h3>
+    <h3>Payment_type : <%= djs[0].payment_type
+            %>
+    </h3>
+    <h3>Taxi company : <%= djs[0].company
+            %>
+    </h3>
+
+
+
+</body>
+
+</html>
